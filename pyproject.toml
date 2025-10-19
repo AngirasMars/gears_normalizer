@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gears"
+version = "0.0.1"
+description = "GPS+POI → ARRIVE/DEPART/DWELL/ANOMALY"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.1",
+  "pyarrow>=13",
+  "python-dateutil>=2.8",
+  "pyyaml>=6.0"
+]
+
+[project.scripts]
+gears = "gears.cli:main"

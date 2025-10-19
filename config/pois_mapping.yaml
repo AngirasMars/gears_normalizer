@@ -1,0 +1,16 @@
+﻿columns:
+  poi_id: ["id","stop_id","place_id"]
+  name: ["name","label"]
+  lat: ["lat","latitude"]
+  lon: ["lon","lng","longitude"]
+  radius: ["radius_m","buffer_m","buffer_ft"]
+  type: ["type","category"]
+  priority: ["priority","rank"]
+  polygon_wkt: ["wkt","polygon"]
+
+units:
+  radius_is_feet: false
+
+defaults:
+  type: "school"
+  priority: 0

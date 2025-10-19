@@ -1,0 +1,14 @@
+﻿columns:
+  vehicle_id: ["veh_id","busId","vehicle"]
+  ts: ["timestamp","time","datetime","datetime_local"]
+  lat: ["lat","latitude"]
+  lon: ["lon","lng","longitude"]
+  speed: ["speed_kmh","speed_mps","speed"]
+  heading: ["heading","bearing"]
+
+time:
+  is_iso_utc: false
+  input_tz: "PUT_YOUR_TIMEZONE_HERE"   # e.g. America/New_York or America/Chicago
+
+units:
+  speed_is_kmh: true
