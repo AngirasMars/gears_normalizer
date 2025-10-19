@@ -1,0 +1,13 @@
+﻿columns:
+  vehicle_id: ["veh_id"]
+  ts: ["timestamp"]
+  lat: ["lat"]
+  lon: ["lon"]
+  speed: ["speed_kmh"]
+
+time:
+  is_iso_utc: true
+  input_tz: "UTC"
+
+units:
+  speed_is_kmh: true

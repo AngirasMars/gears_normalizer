@@ -1,0 +1,13 @@
+﻿columns:
+  lat: ["Latitude"]
+  lon: ["Longitude"]
+  speed: ["GPS Speed (m/s)"]
+  heading: ["Bearing (deg)"]
+
+time:
+  input_tz: "America/Chicago"
+  start_time_header: "StartTime"
+  seconds_column: "Time (sec)"
+
+units:
+  speed_is_kmh: false
